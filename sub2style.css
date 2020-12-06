@@ -1,0 +1,297 @@
+body {
+  	margin: 0 auto;
+ 	width: 1280px;
+  	position:absolute;
+ 	left: 50%; margin-left: -640px;
+}
+
+summary {
+	cursor: pointer;
+}
+
+.white {
+	font-family: source-han-serif-korean, serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+.black {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 40px;
+	background-color: black;
+	color: white;
+}
+
+.sansbold {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 700;
+}
+
+.serifbold {
+	font-family: source-han-serif-korean, serif;
+	font-weight: 700;
+}
+
+#footertext {
+	position: relative;
+	top: 24px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#footer {
+	clear: both;
+	background-color: black;
+	width: 1280px;
+	height: 150px;
+}
+
+
+#nav {
+	width: 1280px;
+	height: 100px;
+	background-color: white;
+  	position: fixed;
+  	margin: 0 auto;
+  	z-index: 1;
+}
+
+#nav a {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+	text-decoration:none; 
+	color: black;
+	font-size: 24px;
+}
+#newton {
+	margin: 32px;
+	float: left;
+	display: inline;
+}
+
+#hypertext {
+ 	margin: 32px;
+ 	float: right;
+  	display: inline-block;
+}
+
+.hypertext {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+
+
+
+#header{
+	height: 792px;
+	clear: both;
+}
+
+.title {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	position: relative;
+	top: 272px;
+	left: 180px;
+}
+
+.subtitle {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	position: relative;
+	top: 280px;
+	left: 180px;
+}
+
+
+
+
+
+
+#concept2 {
+	height: 800px;
+}
+
+
+#hover-me03 {
+	font-size: 140px;
+	line-height: 120px;
+	font-weight: 700;
+	position: absolute;
+	top:920px;
+	left: 180px;
+	width: 548px;
+}
+
+#hover-me03:hover {
+	font-size: 0;
+}
+
+#hover-me03:hover:before {
+	content: '\A천구에서 북극을 움직이게 하는 지구의 운동';
+	white-space: pre;
+	color: white;
+	font-size: 24px;
+	font-weight: 300;
+	width: 548px;
+	list-style: none;
+
+
+
+}
+
+#hover-me03::-webkit-details-marker {
+	display: none;
+}
+
+#meaning03 {
+	width: 240px;
+	position: absolute;
+	top: 940px;
+	left: 840px;
+	text-align: justify;
+}
+
+
+#imgswap03 {
+	position: absolute;
+	top: 1200px;
+	left: 820px;
+}
+
+#top::-webkit-details-marker {
+	display: none;
+}
+
+
+
+#toptext {
+	margin-top: 240px;
+	margin-left: 180px;
+	margin-right: 180px;
+	background-color: white;
+}
+
+#move {
+	font-size: 48px;
+	line-height: 72px;
+}
+
+#northsouth {
+	margin-top: 120px;
+	display: inline-block;
+	width: 328px;
+}
+
+#north {
+	margin-bottom: 120px;
+}
+
+#plus {
+	margin-top: 120px;
+	margin-left: 20px;
+	display: inline-block;
+	width: 500px;
+}
+
+#northplus {
+	margin-bottom: 80px;
+}
+
+#but {
+	font-size: 48px;
+	line-height: 72px;
+	margin-top: 240px;
+	margin-bottom: 240px;
+}
+
+
+
+
+
+
+
+#moving {
+	height: 800px;
+	background-color: black;
+}
+
+#moveimg {
+	position: relative;
+	top: 140px;
+	left: 140px;
+	width: 572px;
+	display: inline-block;
+}
+
+#moveimg::-webkit-details-marker {
+	display: none;
+}
+
+#moveplus {
+	position: relative;
+	top: -344px;
+	left: 760px;
+	display: inline-block;
+	margin: 0;
+	width: 400px;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+#imgswap031 {
+	width: 572px;
+	height: 572px;
+}
+
+
+
+
+
+#star {
+	height: 800px;
+	background-color: black;
+}
+
+
+#starimg {
+	position: relative;
+	top: 40px;
+	left: 560px;
+	width: 500px;
+	display: inline-block;
+}
+
+#starimg::-webkit-details-marker {
+	display: none;
+}
+
+#starplus01 {
+	position: relative;
+	top: -296px;
+	left: 280px;
+	display: inline-block;
+	margin: 0;
+	width: 280px;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+#starplus02 {
+	position: relative;
+	top: 80px;
+	left: 440px;
+	display: inline-block;
+	margin: 0;
+	width: 280px;
+	font-size: 24px;
+	line-height: 40px;
+}
