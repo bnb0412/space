@@ -5,10 +5,6 @@ body {
  	left: 50%; margin-left: -640px;
 }
 
-summary {
-	cursor: pointer;
-}
-
 .white {
 	font-family: source-han-serif-korean, serif;
 	font-weight: 300;
@@ -113,185 +109,151 @@ summary {
 
 
 
-
-
-
-#concept2 {
-	height: 800px;
+#concept {
+	height: 860px;
 }
 
 
-#hover-me03 {
+#hover-me01 {
 	font-size: 140px;
 	line-height: 160px;
 	font-weight: 700;
 	position: absolute;
 	top:920px;
 	left: 180px;
-	width: 548px;
+	width: 460px;
 }
 
-#hover-me03:hover {
+#hover-me01:hover {
 	font-size: 0;
 }
 
-#hover-me03:hover:before {
-	content: '\A천구에서 북극을 움직이게 하는 지구의 운동';
+#hover-me01:hover:before {
+	content: '지구상의 관측자를\A중심으로 해서 그린 구면';
 	white-space: pre;
 	color: white;
 	font-size: 24px;
 	font-weight: 300;
-	width: 548px;
+	width: 460px;
 	list-style: none;
-
-
-
 }
 
-#hover-me03::-webkit-details-marker {
+#hover-me01::-webkit-details-marker {
 	display: none;
 }
 
-#meaning03 {
-	width: 240px;
+summary {
+	cursor: pointer;
+}
+
+#meaning01 {
+	width: 560px;
 	position: absolute;
-	top: 940px;
-	left: 840px;
+	top: 1000px;
+	left: 560px;
+}
+
+#hover-me02 {
+	font-size: 140px;
+	line-height: 160px;
+	font-weight: 700;
+	position: absolute;
+	top:1300px;
+	right: 180px;
+	text-align: right;
+	width: 460px;
+}
+
+#hover-me02:hover {
+	font-size: 0;
+}
+
+#hover-me02:hover:before {
+	content: '지구가 태양 주변을 공전하는 동안\A천구에 투영된 태양의 겉보기 경로';
+	white-space: pre;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: right;
+	width: 460px;
+	list-style: none;
+}
+
+#hover-me02::-webkit-details-marker {
+	display: none;
+}
+
+#meaning02 {
+	width: 560px;
+	position: absolute;
+	top: 1340px;
+	right: 560px;
+	text-align: right;
+}
+
+
+
+
+
+
+#whitesphere {
+	background-color: white
+	width: 1280px;
+	height: 792px;
+	display: inline-block;
+	position: absolute;
+	top: 3072px;
+	left: 180px;
+}
+
+#useequatorial  {
+	margin-left: 180px;
+	margin-top: 288px;
+	width: 356px;
+	background-color: white;
+	color: black;
+	display: inline-block;
+}
+
+#isequatorial {
+	margin-top: 288px;
+	margin-bottom: 364px;
+	width: 640px;
+	background-color: white;
+	color: black;
+	display: inline-block;
+	font-size: 48px;
+	line-height: 72px;
+}
+
+#earthspin {
+	margin-left: 180px;
+	margin-top: 140px;
+	margin-bottom: 100px;
+	width: 480px;
+	background-color: white;
+	color: black;
+	display: inline-block;
 	text-align: justify;
 }
-
-
-#imgswap03 {
-	position: absolute;
-	top: 1200px;
-	left: 820px;
-}
-
-#top::-webkit-details-marker {
-	display: none;
-}
-
-
-
-#toptext {
-	margin-top: 240px;
-	margin-left: 180px;
-	margin-right: 180px;
+#season {
+	margin-top: 140px;
+	margin-left: 56px;
+	width: 420px;
 	background-color: white;
-}
-
-#move {
+	color: black;
+	display: inline-block;
 	font-size: 48px;
 	line-height: 72px;
-}
-
-#northsouth {
-	margin-top: 120px;
-	display: inline-block;
-	width: 328px;
-}
-
-#north {
-	margin-bottom: 120px;
-}
-
-#plus {
-	margin-top: 120px;
-	margin-left: 20px;
-	display: inline-block;
-	width: 500px;
-}
-
-#northplus {
-	margin-bottom: 80px;
-}
-
-#but {
-	font-size: 48px;
-	line-height: 72px;
-	margin-top: 240px;
-	margin-bottom: 240px;
+	font-weight: 700;
 }
 
 
 
 
-
-
-
-#moving {
-	height: 800px;
-	background-color: black;
-}
-
-#moveimg {
-	position: relative;
-	top: 140px;
-	left: 140px;
-	width: 572px;
-	display: inline-block;
-}
-
-#moveimg::-webkit-details-marker {
+#sphere::-webkit-details-marker {
 	display: none;
 }
 
-#moveplus {
-	position: relative;
-	top: -344px;
-	left: 760px;
-	display: inline-block;
-	margin: 0;
-	width: 400px;
-	font-size: 24px;
-	line-height: 40px;
-}
-
-#imgswap031 {
-	width: 572px;
-	height: 572px;
-}
-
-
-
-
-
-#star {
-	height: 800px;
-	background-color: black;
-}
-
-
-#starimg {
-	position: relative;
-	top: 40px;
-	left: 560px;
-	width: 500px;
-	display: inline-block;
-}
-
-#starimg::-webkit-details-marker {
+#location::-webkit-details-marker {
 	display: none;
-}
-
-#starplus01 {
-	position: relative;
-	top: -296px;
-	left: 280px;
-	display: inline-block;
-	margin: 0;
-	width: 280px;
-	font-size: 24px;
-	line-height: 40px;
-}
-
-#starplus02 {
-	position: relative;
-	top: 80px;
-	left: 440px;
-	display: inline-block;
-	margin: 0;
-	width: 280px;
-	font-size: 24px;
-	line-height: 40px;
 }
